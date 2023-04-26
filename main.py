@@ -21,7 +21,7 @@ for letter in text:
     try:
         converted_text += MORSE_CODE_DICT[letter.upper()]
     except KeyError:
-        converted_text += " "
+        converted_text += "/"
     except:
         converted_text += MORSE_CODE_DICT[letter]
 
